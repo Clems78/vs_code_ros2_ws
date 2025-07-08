@@ -29,6 +29,6 @@ RUN echo "export _colcon_cd_root=/home/ros2_ws" >> ~/.bashrc
 RUN echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc
 
 # Add mixin tool 
-RUN colcon mixin add default https://raw.githubusercontent.com/colcon/colcon-mixin-repository/master/index.yaml
-RUN colcon mixin update default
-RUN colcon build --mixin debug
+#RUN colcon mixin add default https://raw.githubusercontent.com/colcon/colcon-mixin-repository/master/index.yaml
+#RUN colcon mixin update default
+#RUN colcon build --mixin debug
